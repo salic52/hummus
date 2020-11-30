@@ -1,0 +1,65 @@
+/* This is a comment in CSS */
+
+h1 {
+    color: red;
+    font-family: impact, verdana, sans-serif;
+}
+
+h2 {color: blue;
+text-align: center;
+}
+
+section, div {
+    background-color: cyan;
+}
+
+div p {
+    color: crimson
+}
+
+section>ul {
+    color: coral;
+}
+
+li+ul {
+    color: darkred;
+}
+
+#top_nav {
+    background-color: orange;
+}
+
+.purple_color {
+    color: purple;
+    font-size: small;
+    font-family: fantasy, cursive, sans-serif;
+}
+
+/* Unvisited Link */
+a:link {
+    color: green;
+}
+
+/* Visited Link */
+a:visited {
+    color: red;
+}
+
+/* Mouseover Link */
+a:hover {
+    color: chartreuse;
+    font-size: larger;
+}
+
+/* Selected Link */
+a:active {
+    color: aqua;
+}
+
+blockquote {
+    background-color: #FFF711;
+}
+
+header {
+    background-color: rgb(110,250,22);
+}
